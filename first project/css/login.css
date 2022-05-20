@@ -1,0 +1,64 @@
+.login-title{
+	text-align: center;
+	font-size: 20px;
+}
+.login-block{
+	padding-left: 3%;
+	background-color: #f7f7f7;
+	width: 30%;
+	margin: 50px auto;
+}
+.login-item{
+	left: 10px;
+}
+.login-account{
+	font-size: 20px;
+	font-weight: 500;
+	padding: 10px 0;
+}
+.login-pass{
+	font-size: 20px;
+	font-weight: 500;
+	padding: 10px 0;
+}
+.login-input{
+	width: 90%;
+	height: 35px;
+}
+.login-btn{
+	margin: 15px 30%;
+	padding: 5px;
+	background-color: #000;
+	color: #c4b624;
+}
+.login-other{
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 10px;
+}
+.login-with-title{
+	color: #9c97a6;
+}
+.login-with-item{
+	cursor: pointer;
+}
+.fa-google-plus-square{
+	font-size: 25px;
+	padding: 10px;
+	color: #ea4638;
+	padding-bottom: 20px;
+}
+.error{
+	color: red;
+}
+@media screen and (max-width: 991px){
+	.login-btn{
+		width: 50%;
+		margin-left: 20%;
+	}
+}
+@media screen and (max-width: 767px){
+	.login-block{
+		width: 80%;
+	}
+}
